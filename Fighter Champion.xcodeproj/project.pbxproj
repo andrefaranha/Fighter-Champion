@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6549BA581C2B6A8000D1C3DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6549BA571C2B6A8000D1C3DB /* main.m */; };
+		6549BA5B1C2B6A8000D1C3DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6549BA5A1C2B6A8000D1C3DB /* AppDelegate.m */; };
+		6549BA5E1C2B6A8000D1C3DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6549BA5D1C2B6A8000D1C3DB /* ViewController.m */; };
+		6549BA611C2B6A8000D1C3DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6549BA5F1C2B6A8000D1C3DB /* Main.storyboard */; };
+		6549BA631C2B6A8000D1C3DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6549BA621C2B6A8000D1C3DB /* Assets.xcassets */; };
+		6549BA661C2B6A8000D1C3DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6549BA641C2B6A8000D1C3DB /* LaunchScreen.storyboard */; };
+		6549BA711C2B6A8000D1C3DB /* Fighter_ChampionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6549BA701C2B6A8000D1C3DB /* Fighter_ChampionTests.m */; };
+		6549BA7C1C2B6A8000D1C3DB /* Fighter_ChampionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6549BA7B1C2B6A8000D1C3DB /* Fighter_ChampionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6549BA6D1C2B6A8000D1C3DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6549BA4B1C2B6A7F00D1C3DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6549BA521C2B6A8000D1C3DB;
+			remoteInfo = "Fighter Champion";
+		};
+		6549BA781C2B6A8000D1C3DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6549BA4B1C2B6A7F00D1C3DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6549BA521C2B6A8000D1C3DB;
+			remoteInfo = "Fighter Champion";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6549BA531C2B6A8000D1C3DB /* Fighter Champion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fighter Champion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6549BA571C2B6A8000D1C3DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6549BA591C2B6A8000D1C3DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6549BA5A1C2B6A8000D1C3DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6549BA5C1C2B6A8000D1C3DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6549BA5D1C2B6A8000D1C3DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6549BA601C2B6A8000D1C3DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6549BA621C2B6A8000D1C3DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6549BA651C2B6A8000D1C3DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6549BA671C2B6A8000D1C3DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6549BA6C1C2B6A8000D1C3DB /* Fighter ChampionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fighter ChampionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6549BA701C2B6A8000D1C3DB /* Fighter_ChampionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fighter_ChampionTests.m; sourceTree = "<group>"; };
+		6549BA721C2B6A8000D1C3DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6549BA771C2B6A8000D1C3DB /* Fighter ChampionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fighter ChampionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6549BA7B1C2B6A8000D1C3DB /* Fighter_ChampionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fighter_ChampionUITests.m; sourceTree = "<group>"; };
+		6549BA7D1C2B6A8000D1C3DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6549BA501C2B6A8000D1C3DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6549BA691C2B6A8000D1C3DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6549BA741C2B6A8000D1C3DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6549BA4A1C2B6A7F00D1C3DB = {
+			isa = PBXGroup;
+			children = (
+				6549BA551C2B6A8000D1C3DB /* Fighter Champion */,
+				6549BA6F1C2B6A8000D1C3DB /* Fighter ChampionTests */,
+				6549BA7A1C2B6A8000D1C3DB /* Fighter ChampionUITests */,
+				6549BA541C2B6A8000D1C3DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6549BA541C2B6A8000D1C3DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6549BA531C2B6A8000D1C3DB /* Fighter Champion.app */,
+				6549BA6C1C2B6A8000D1C3DB /* Fighter ChampionTests.xctest */,
+				6549BA771C2B6A8000D1C3DB /* Fighter ChampionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6549BA551C2B6A8000D1C3DB /* Fighter Champion */ = {
+			isa = PBXGroup;
+			children = (
+				6549BA591C2B6A8000D1C3DB /* AppDelegate.h */,
+				6549BA5A1C2B6A8000D1C3DB /* AppDelegate.m */,
+				6549BA5C1C2B6A8000D1C3DB /* ViewController.h */,
+				6549BA5D1C2B6A8000D1C3DB /* ViewController.m */,
+				6549BA5F1C2B6A8000D1C3DB /* Main.storyboard */,
+				6549BA621C2B6A8000D1C3DB /* Assets.xcassets */,
+				6549BA641C2B6A8000D1C3DB /* LaunchScreen.storyboard */,
+				6549BA671C2B6A8000D1C3DB /* Info.plist */,
+				6549BA561C2B6A8000D1C3DB /* Supporting Files */,
+			);
+			path = "Fighter Champion";
+			sourceTree = "<group>";
+		};
+		6549BA561C2B6A8000D1C3DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6549BA571C2B6A8000D1C3DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6549BA6F1C2B6A8000D1C3DB /* Fighter ChampionTests */ = {
+			isa = PBXGroup;
+			children = (
+				6549BA701C2B6A8000D1C3DB /* Fighter_ChampionTests.m */,
+				6549BA721C2B6A8000D1C3DB /* Info.plist */,
+			);
+			path = "Fighter ChampionTests";
+			sourceTree = "<group>";
+		};
+		6549BA7A1C2B6A8000D1C3DB /* Fighter ChampionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6549BA7B1C2B6A8000D1C3DB /* Fighter_ChampionUITests.m */,
+				6549BA7D1C2B6A8000D1C3DB /* Info.plist */,
+			);
+			path = "Fighter ChampionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6549BA521C2B6A8000D1C3DB /* Fighter Champion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6549BA801C2B6A8000D1C3DB /* Build configuration list for PBXNativeTarget "Fighter Champion" */;
+			buildPhases = (
+				6549BA4F1C2B6A8000D1C3DB /* Sources */,
+				6549BA501C2B6A8000D1C3DB /* Frameworks */,
+				6549BA511C2B6A8000D1C3DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fighter Champion";
+			productName = "Fighter Champion";
+			productReference = 6549BA531C2B6A8000D1C3DB /* Fighter Champion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6549BA6B1C2B6A8000D1C3DB /* Fighter ChampionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6549BA831C2B6A8000D1C3DB /* Build configuration list for PBXNativeTarget "Fighter ChampionTests" */;
+			buildPhases = (
+				6549BA681C2B6A8000D1C3DB /* Sources */,
+				6549BA691C2B6A8000D1C3DB /* Frameworks */,
+				6549BA6A1C2B6A8000D1C3DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6549BA6E1C2B6A8000D1C3DB /* PBXTargetDependency */,
+			);
+			name = "Fighter ChampionTests";
+			productName = "Fighter ChampionTests";
+			productReference = 6549BA6C1C2B6A8000D1C3DB /* Fighter ChampionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6549BA761C2B6A8000D1C3DB /* Fighter ChampionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6549BA861C2B6A8000D1C3DB /* Build configuration list for PBXNativeTarget "Fighter ChampionUITests" */;
+			buildPhases = (
+				6549BA731C2B6A8000D1C3DB /* Sources */,
+				6549BA741C2B6A8000D1C3DB /* Frameworks */,
+				6549BA751C2B6A8000D1C3DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6549BA791C2B6A8000D1C3DB /* PBXTargetDependency */,
+			);
+			name = "Fighter ChampionUITests";
+			productName = "Fighter ChampionUITests";
+			productReference = 6549BA771C2B6A8000D1C3DB /* Fighter ChampionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6549BA4B1C2B6A7F00D1C3DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Andre Aranha";
+				TargetAttributes = {
+					6549BA521C2B6A8000D1C3DB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					6549BA6B1C2B6A8000D1C3DB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6549BA521C2B6A8000D1C3DB;
+					};
+					6549BA761C2B6A8000D1C3DB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6549BA521C2B6A8000D1C3DB;
+					};
+				};
+			};
+			buildConfigurationList = 6549BA4E1C2B6A8000D1C3DB /* Build configuration list for PBXProject "Fighter Champion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6549BA4A1C2B6A7F00D1C3DB;
+			productRefGroup = 6549BA541C2B6A8000D1C3DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6549BA521C2B6A8000D1C3DB /* Fighter Champion */,
+				6549BA6B1C2B6A8000D1C3DB /* Fighter ChampionTests */,
+				6549BA761C2B6A8000D1C3DB /* Fighter ChampionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6549BA511C2B6A8000D1C3DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6549BA661C2B6A8000D1C3DB /* LaunchScreen.storyboard in Resources */,
+				6549BA631C2B6A8000D1C3DB /* Assets.xcassets in Resources */,
+				6549BA611C2B6A8000D1C3DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6549BA6A1C2B6A8000D1C3DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6549BA751C2B6A8000D1C3DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6549BA4F1C2B6A8000D1C3DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6549BA5E1C2B6A8000D1C3DB /* ViewController.m in Sources */,
+				6549BA5B1C2B6A8000D1C3DB /* AppDelegate.m in Sources */,
+				6549BA581C2B6A8000D1C3DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6549BA681C2B6A8000D1C3DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6549BA711C2B6A8000D1C3DB /* Fighter_ChampionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6549BA731C2B6A8000D1C3DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6549BA7C1C2B6A8000D1C3DB /* Fighter_ChampionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6549BA6E1C2B6A8000D1C3DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6549BA521C2B6A8000D1C3DB /* Fighter Champion */;
+			targetProxy = 6549BA6D1C2B6A8000D1C3DB /* PBXContainerItemProxy */;
+		};
+		6549BA791C2B6A8000D1C3DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6549BA521C2B6A8000D1C3DB /* Fighter Champion */;
+			targetProxy = 6549BA781C2B6A8000D1C3DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6549BA5F1C2B6A8000D1C3DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6549BA601C2B6A8000D1C3DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6549BA641C2B6A8000D1C3DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6549BA651C2B6A8000D1C3DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6549BA7E1C2B6A8000D1C3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6549BA7F1C2B6A8000D1C3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6549BA811C2B6A8000D1C3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fighter Champion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afaranha.Fighter-Champion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6549BA821C2B6A8000D1C3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fighter Champion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afaranha.Fighter-Champion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6549BA841C2B6A8000D1C3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fighter ChampionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afaranha.Fighter-ChampionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fighter Champion.app/Fighter Champion";
+			};
+			name = Debug;
+		};
+		6549BA851C2B6A8000D1C3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fighter ChampionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afaranha.Fighter-ChampionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fighter Champion.app/Fighter Champion";
+			};
+			name = Release;
+		};
+		6549BA871C2B6A8000D1C3DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fighter ChampionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afaranha.Fighter-ChampionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fighter Champion";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6549BA881C2B6A8000D1C3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fighter ChampionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.afaranha.Fighter-ChampionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fighter Champion";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6549BA4E1C2B6A8000D1C3DB /* Build configuration list for PBXProject "Fighter Champion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6549BA7E1C2B6A8000D1C3DB /* Debug */,
+				6549BA7F1C2B6A8000D1C3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6549BA801C2B6A8000D1C3DB /* Build configuration list for PBXNativeTarget "Fighter Champion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6549BA811C2B6A8000D1C3DB /* Debug */,
+				6549BA821C2B6A8000D1C3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6549BA831C2B6A8000D1C3DB /* Build configuration list for PBXNativeTarget "Fighter ChampionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6549BA841C2B6A8000D1C3DB /* Debug */,
+				6549BA851C2B6A8000D1C3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6549BA861C2B6A8000D1C3DB /* Build configuration list for PBXNativeTarget "Fighter ChampionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6549BA871C2B6A8000D1C3DB /* Debug */,
+				6549BA881C2B6A8000D1C3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6549BA4B1C2B6A7F00D1C3DB /* Project object */;
+}
