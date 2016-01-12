@@ -6,13 +6,14 @@
 //  Copyright © 2015 Andre Aranha. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "TitleViewController.h"
+#import "FighterManager.h"
 
-@interface ViewController ()
+@interface TitleViewController ()
 
 @end
 
-@implementation ViewController
+@implementation TitleViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

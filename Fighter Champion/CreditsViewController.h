@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CreditsViewController.h
 //  Fighter Champion
 //
 //  Created by Andre Aranha on 12/23/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CreditsViewController : UIViewController
 
 
 @end
-

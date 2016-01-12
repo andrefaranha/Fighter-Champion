@@ -7,14 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65068BEF1C2BAF080073863E /* 001-Fighter01.png in Resources */ = {isa = PBXBuildFile; fileRef = 65068BE71C2BAF080073863E /* 001-Fighter01.png */; };
+		65068BF01C2BAF080073863E /* 002-Fighter02.png in Resources */ = {isa = PBXBuildFile; fileRef = 65068BE81C2BAF080073863E /* 002-Fighter02.png */; };
+		65068BF11C2BAF080073863E /* 003-Fighter03.png in Resources */ = {isa = PBXBuildFile; fileRef = 65068BE91C2BAF080073863E /* 003-Fighter03.png */; };
+		65068BF21C2BAF080073863E /* 004-Fighter04.png in Resources */ = {isa = PBXBuildFile; fileRef = 65068BEA1C2BAF080073863E /* 004-Fighter04.png */; };
+		65068BF31C2BAF080073863E /* 005-Fighter05.png in Resources */ = {isa = PBXBuildFile; fileRef = 65068BEB1C2BAF080073863E /* 005-Fighter05.png */; };
+		65068BF41C2BAF080073863E /* 006-Fighter06.png in Resources */ = {isa = PBXBuildFile; fileRef = 65068BEC1C2BAF080073863E /* 006-Fighter06.png */; };
+		65068BF51C2BAF080073863E /* 007-Fighter07.png in Resources */ = {isa = PBXBuildFile; fileRef = 65068BED1C2BAF080073863E /* 007-Fighter07.png */; };
+		65068BF61C2BAF080073863E /* 008-Fighter08.png in Resources */ = {isa = PBXBuildFile; fileRef = 65068BEE1C2BAF080073863E /* 008-Fighter08.png */; };
+		65068BF81C2BB34C0073863E /* 001-Grassland01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65068BF71C2BB34C0073863E /* 001-Grassland01.jpg */; };
+		65068BFA1C2BB3BB0073863E /* 006-Mountains01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65068BF91C2BB3BB0073863E /* 006-Mountains01.jpg */; };
 		6549BA581C2B6A8000D1C3DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6549BA571C2B6A8000D1C3DB /* main.m */; };
 		6549BA5B1C2B6A8000D1C3DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6549BA5A1C2B6A8000D1C3DB /* AppDelegate.m */; };
-		6549BA5E1C2B6A8000D1C3DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6549BA5D1C2B6A8000D1C3DB /* ViewController.m */; };
+		6549BA5E1C2B6A8000D1C3DB /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6549BA5D1C2B6A8000D1C3DB /* TitleViewController.m */; };
 		6549BA611C2B6A8000D1C3DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6549BA5F1C2B6A8000D1C3DB /* Main.storyboard */; };
 		6549BA631C2B6A8000D1C3DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6549BA621C2B6A8000D1C3DB /* Assets.xcassets */; };
 		6549BA661C2B6A8000D1C3DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6549BA641C2B6A8000D1C3DB /* LaunchScreen.storyboard */; };
 		6549BA711C2B6A8000D1C3DB /* Fighter_ChampionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6549BA701C2B6A8000D1C3DB /* Fighter_ChampionTests.m */; };
 		6549BA7C1C2B6A8000D1C3DB /* Fighter_ChampionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6549BA7B1C2B6A8000D1C3DB /* Fighter_ChampionUITests.m */; };
+		6549BA8B1C2B6FEE00D1C3DB /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6549BA8A1C2B6FEE00D1C3DB /* CreditsViewController.m */; };
+		6549BA901C2B75B300D1C3DB /* ChooseCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6549BA8F1C2B75B300D1C3DB /* ChooseCharacterViewController.m */; };
+		6549BA931C2B849F00D1C3DB /* BattleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6549BA921C2B849F00D1C3DB /* BattleViewController.m */; };
+		6559CA531C2CC2350070459B /* PointsDistributionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6559CA521C2CC2350070459B /* PointsDistributionViewController.m */; };
+		657C5FD61C2C2CB30023337E /* Fighter.m in Sources */ = {isa = PBXBuildFile; fileRef = 657C5FD51C2C2CB30023337E /* Fighter.m */; };
+		657C5FD81C2C36F20023337E /* FighterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 657C5FD71C2C36F20023337E /* FighterManager.m */; };
+		65D2AFDD1C386E1200C306C5 /* DarkSpace1.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D2AFDC1C386E1200C306C5 /* DarkSpace1.png */; };
+		65D2AFE11C3874DF00C306C5 /* bg_medium-quality-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65D2AFDE1C3874DF00C306C5 /* bg_medium-quality-1.jpg */; };
+		65D2AFE21C3874DF00C306C5 /* jose-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65D2AFDF1C3874DF00C306C5 /* jose-bg.jpg */; };
+		65D2AFE31C3874DF00C306C5 /* mounted_floor_rings_with_canvas_floor_sku_7205.2-7209.2sr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65D2AFE01C3874DF00C306C5 /* mounted_floor_rings_with_canvas_floor_sku_7205.2-7209.2sr.jpg */; };
+		65D2AFE51C3883B000C306C5 /* story.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65D2AFE41C3883B000C306C5 /* story.jpg */; };
+		65D2AFE71C38902000C306C5 /* ending.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65D2AFE61C38901F00C306C5 /* ending.jpg */; };
+		65DE97531C2F53E400C26A34 /* Battle.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DE97521C2F53E400C26A34 /* Battle.m */; };
+		65E7D82E1C3361720061EE24 /* VictoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E7D82D1C3361720061EE24 /* VictoryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +59,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65068BE71C2BAF080073863E /* 001-Fighter01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "001-Fighter01.png"; sourceTree = "<group>"; };
+		65068BE81C2BAF080073863E /* 002-Fighter02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002-Fighter02.png"; sourceTree = "<group>"; };
+		65068BE91C2BAF080073863E /* 003-Fighter03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003-Fighter03.png"; sourceTree = "<group>"; };
+		65068BEA1C2BAF080073863E /* 004-Fighter04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004-Fighter04.png"; sourceTree = "<group>"; };
+		65068BEB1C2BAF080073863E /* 005-Fighter05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005-Fighter05.png"; sourceTree = "<group>"; };
+		65068BEC1C2BAF080073863E /* 006-Fighter06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "006-Fighter06.png"; sourceTree = "<group>"; };
+		65068BED1C2BAF080073863E /* 007-Fighter07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "007-Fighter07.png"; sourceTree = "<group>"; };
+		65068BEE1C2BAF080073863E /* 008-Fighter08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "008-Fighter08.png"; sourceTree = "<group>"; };
+		65068BF71C2BB34C0073863E /* 001-Grassland01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "001-Grassland01.jpg"; sourceTree = "<group>"; };
+		65068BF91C2BB3BB0073863E /* 006-Mountains01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "006-Mountains01.jpg"; sourceTree = "<group>"; };
 		6549BA531C2B6A8000D1C3DB /* Fighter Champion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fighter Champion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6549BA571C2B6A8000D1C3DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6549BA591C2B6A8000D1C3DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6549BA5A1C2B6A8000D1C3DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6549BA5C1C2B6A8000D1C3DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6549BA5D1C2B6A8000D1C3DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6549BA5C1C2B6A8000D1C3DB /* TitleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
+		6549BA5D1C2B6A8000D1C3DB /* TitleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
 		6549BA601C2B6A8000D1C3DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6549BA621C2B6A8000D1C3DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6549BA651C2B6A8000D1C3DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +85,28 @@
 		6549BA771C2B6A8000D1C3DB /* Fighter ChampionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fighter ChampionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6549BA7B1C2B6A8000D1C3DB /* Fighter_ChampionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fighter_ChampionUITests.m; sourceTree = "<group>"; };
 		6549BA7D1C2B6A8000D1C3DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6549BA891C2B6FE400D1C3DB /* CreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditsViewController.h; sourceTree = "<group>"; };
+		6549BA8A1C2B6FEE00D1C3DB /* CreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditsViewController.m; sourceTree = "<group>"; };
+		6549BA8E1C2B758E00D1C3DB /* ChooseCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseCharacterViewController.h; sourceTree = "<group>"; };
+		6549BA8F1C2B75B300D1C3DB /* ChooseCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseCharacterViewController.m; sourceTree = "<group>"; };
+		6549BA911C2B849F00D1C3DB /* BattleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleViewController.h; sourceTree = "<group>"; };
+		6549BA921C2B849F00D1C3DB /* BattleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattleViewController.m; sourceTree = "<group>"; };
+		6559CA511C2CC2350070459B /* PointsDistributionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointsDistributionViewController.h; sourceTree = "<group>"; };
+		6559CA521C2CC2350070459B /* PointsDistributionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointsDistributionViewController.m; sourceTree = "<group>"; };
+		657C5FD41C2C2C8F0023337E /* Fighter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fighter.h; sourceTree = "<group>"; };
+		657C5FD51C2C2CB30023337E /* Fighter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fighter.m; sourceTree = "<group>"; };
+		657C5FD71C2C36F20023337E /* FighterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FighterManager.m; sourceTree = "<group>"; };
+		657C5FD91C2C37020023337E /* FighterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FighterManager.h; sourceTree = "<group>"; };
+		65D2AFDC1C386E1200C306C5 /* DarkSpace1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkSpace1.png; sourceTree = "<group>"; };
+		65D2AFDE1C3874DF00C306C5 /* bg_medium-quality-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg_medium-quality-1.jpg"; sourceTree = "<group>"; };
+		65D2AFDF1C3874DF00C306C5 /* jose-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jose-bg.jpg"; sourceTree = "<group>"; };
+		65D2AFE01C3874DF00C306C5 /* mounted_floor_rings_with_canvas_floor_sku_7205.2-7209.2sr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mounted_floor_rings_with_canvas_floor_sku_7205.2-7209.2sr.jpg"; sourceTree = "<group>"; };
+		65D2AFE41C3883B000C306C5 /* story.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = story.jpg; sourceTree = "<group>"; };
+		65D2AFE61C38901F00C306C5 /* ending.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ending.jpg; sourceTree = "<group>"; };
+		65DE97511C2F53D900C26A34 /* Battle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Battle.h; sourceTree = "<group>"; };
+		65DE97521C2F53E400C26A34 /* Battle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Battle.m; sourceTree = "<group>"; };
+		65E7D82C1C3361720061EE24 /* VictoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VictoryViewController.h; sourceTree = "<group>"; };
+		65E7D82D1C3361720061EE24 /* VictoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VictoryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +134,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65068BE61C2BAEF20073863E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				65068BF91C2BB3BB0073863E /* 006-Mountains01.jpg */,
+				65068BE71C2BAF080073863E /* 001-Fighter01.png */,
+				65068BE81C2BAF080073863E /* 002-Fighter02.png */,
+				65068BE91C2BAF080073863E /* 003-Fighter03.png */,
+				65068BEA1C2BAF080073863E /* 004-Fighter04.png */,
+				65068BEB1C2BAF080073863E /* 005-Fighter05.png */,
+				65068BEC1C2BAF080073863E /* 006-Fighter06.png */,
+				65068BED1C2BAF080073863E /* 007-Fighter07.png */,
+				65068BEE1C2BAF080073863E /* 008-Fighter08.png */,
+				65068BF71C2BB34C0073863E /* 001-Grassland01.jpg */,
+				65D2AFDC1C386E1200C306C5 /* DarkSpace1.png */,
+				65D2AFDE1C3874DF00C306C5 /* bg_medium-quality-1.jpg */,
+				65D2AFDF1C3874DF00C306C5 /* jose-bg.jpg */,
+				65D2AFE01C3874DF00C306C5 /* mounted_floor_rings_with_canvas_floor_sku_7205.2-7209.2sr.jpg */,
+				65D2AFE41C3883B000C306C5 /* story.jpg */,
+				65D2AFE61C38901F00C306C5 /* ending.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		6549BA4A1C2B6A7F00D1C3DB = {
 			isa = PBXGroup;
 			children = (
+				65068BE61C2BAEF20073863E /* Images */,
 				6549BA551C2B6A8000D1C3DB /* Fighter Champion */,
 				6549BA6F1C2B6A8000D1C3DB /* Fighter ChampionTests */,
 				6549BA7A1C2B6A8000D1C3DB /* Fighter ChampionUITests */,
@@ -101,15 +181,26 @@
 		6549BA551C2B6A8000D1C3DB /* Fighter Champion */ = {
 			isa = PBXGroup;
 			children = (
+				657C5FD31C2C2C620023337E /* logic */,
 				6549BA591C2B6A8000D1C3DB /* AppDelegate.h */,
 				6549BA5A1C2B6A8000D1C3DB /* AppDelegate.m */,
-				6549BA5C1C2B6A8000D1C3DB /* ViewController.h */,
-				6549BA5D1C2B6A8000D1C3DB /* ViewController.m */,
+				6549BA5C1C2B6A8000D1C3DB /* TitleViewController.h */,
+				6549BA5D1C2B6A8000D1C3DB /* TitleViewController.m */,
+				6549BA891C2B6FE400D1C3DB /* CreditsViewController.h */,
+				6549BA8A1C2B6FEE00D1C3DB /* CreditsViewController.m */,
 				6549BA5F1C2B6A8000D1C3DB /* Main.storyboard */,
 				6549BA621C2B6A8000D1C3DB /* Assets.xcassets */,
 				6549BA641C2B6A8000D1C3DB /* LaunchScreen.storyboard */,
 				6549BA671C2B6A8000D1C3DB /* Info.plist */,
 				6549BA561C2B6A8000D1C3DB /* Supporting Files */,
+				6549BA8E1C2B758E00D1C3DB /* ChooseCharacterViewController.h */,
+				6549BA8F1C2B75B300D1C3DB /* ChooseCharacterViewController.m */,
+				6559CA511C2CC2350070459B /* PointsDistributionViewController.h */,
+				6559CA521C2CC2350070459B /* PointsDistributionViewController.m */,
+				6549BA911C2B849F00D1C3DB /* BattleViewController.h */,
+				6549BA921C2B849F00D1C3DB /* BattleViewController.m */,
+				65E7D82C1C3361720061EE24 /* VictoryViewController.h */,
+				65E7D82D1C3361720061EE24 /* VictoryViewController.m */,
 			);
 			path = "Fighter Champion";
 			sourceTree = "<group>";
@@ -138,6 +229,19 @@
 				6549BA7D1C2B6A8000D1C3DB /* Info.plist */,
 			);
 			path = "Fighter ChampionUITests";
+			sourceTree = "<group>";
+		};
+		657C5FD31C2C2C620023337E /* logic */ = {
+			isa = PBXGroup;
+			children = (
+				657C5FD41C2C2C8F0023337E /* Fighter.h */,
+				657C5FD51C2C2CB30023337E /* Fighter.m */,
+				657C5FD91C2C37020023337E /* FighterManager.h */,
+				657C5FD71C2C36F20023337E /* FighterManager.m */,
+				65DE97511C2F53D900C26A34 /* Battle.h */,
+				65DE97521C2F53E400C26A34 /* Battle.m */,
+			);
+			name = logic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +347,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65068BF81C2BB34C0073863E /* 001-Grassland01.jpg in Resources */,
+				65D2AFE51C3883B000C306C5 /* story.jpg in Resources */,
+				65D2AFE21C3874DF00C306C5 /* jose-bg.jpg in Resources */,
+				65068BFA1C2BB3BB0073863E /* 006-Mountains01.jpg in Resources */,
+				65068BF61C2BAF080073863E /* 008-Fighter08.png in Resources */,
+				65068BF01C2BAF080073863E /* 002-Fighter02.png in Resources */,
+				65068BEF1C2BAF080073863E /* 001-Fighter01.png in Resources */,
 				6549BA661C2B6A8000D1C3DB /* LaunchScreen.storyboard in Resources */,
 				6549BA631C2B6A8000D1C3DB /* Assets.xcassets in Resources */,
+				65D2AFE31C3874DF00C306C5 /* mounted_floor_rings_with_canvas_floor_sku_7205.2-7209.2sr.jpg in Resources */,
+				65068BF31C2BAF080073863E /* 005-Fighter05.png in Resources */,
+				65068BF41C2BAF080073863E /* 006-Fighter06.png in Resources */,
+				65068BF11C2BAF080073863E /* 003-Fighter03.png in Resources */,
+				65068BF21C2BAF080073863E /* 004-Fighter04.png in Resources */,
+				65068BF51C2BAF080073863E /* 007-Fighter07.png in Resources */,
+				65D2AFE71C38902000C306C5 /* ending.jpg in Resources */,
+				65D2AFE11C3874DF00C306C5 /* bg_medium-quality-1.jpg in Resources */,
+				65D2AFDD1C386E1200C306C5 /* DarkSpace1.png in Resources */,
 				6549BA611C2B6A8000D1C3DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +390,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6549BA5E1C2B6A8000D1C3DB /* ViewController.m in Sources */,
+				6549BA5E1C2B6A8000D1C3DB /* TitleViewController.m in Sources */,
+				657C5FD61C2C2CB30023337E /* Fighter.m in Sources */,
+				6549BA931C2B849F00D1C3DB /* BattleViewController.m in Sources */,
+				6549BA901C2B75B300D1C3DB /* ChooseCharacterViewController.m in Sources */,
 				6549BA5B1C2B6A8000D1C3DB /* AppDelegate.m in Sources */,
 				6549BA581C2B6A8000D1C3DB /* main.m in Sources */,
+				6549BA8B1C2B6FEE00D1C3DB /* CreditsViewController.m in Sources */,
+				65E7D82E1C3361720061EE24 /* VictoryViewController.m in Sources */,
+				65DE97531C2F53E400C26A34 /* Battle.m in Sources */,
+				6559CA531C2CC2350070459B /* PointsDistributionViewController.m in Sources */,
+				657C5FD81C2C36F20023337E /* FighterManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +624,7 @@
 				6549BA821C2B6A8000D1C3DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6549BA831C2B6A8000D1C3DB /* Build configuration list for PBXNativeTarget "Fighter ChampionTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +633,7 @@
 				6549BA851C2B6A8000D1C3DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6549BA861C2B6A8000D1C3DB /* Build configuration list for PBXNativeTarget "Fighter ChampionUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +642,7 @@
 				6549BA881C2B6A8000D1C3DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
